@@ -78,13 +78,16 @@ const IndexPage = () => (
         width={64}
         quality={95}
         formats={["auto", "webp", "avif"]}
-        alt=""
+        alt="Gatsby Logo"
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
         Welcome to <b>Gatsby!</b>
       </h1>
       <p className={styles.intro}>
+        <b>Hello, I'm Nataliya!</b> This is my personalized Gatsby site. Here's
+        a quick overview of some interesting pages you can visit:
+        <br />
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
@@ -93,7 +96,8 @@ const IndexPage = () => (
           </React.Fragment>
         ))}
         <br />
-        Edit <code>src/pages/index.js</code> to update this page.
+        Edit <code>src/pages/index.js</code> to update this page and customize
+        your Gatsby site.
       </p>
     </div>
     <ul className={styles.list}>
